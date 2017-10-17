@@ -1,0 +1,319 @@
+.contacts{
+    height: 115px;
+}
+
+.select-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 278px;
+    border: 1px solid #6C7231;
+    border-radius: 3px;
+}
+
+.select-wrapper:hover {
+    box-shadow: 0px 0px 3px gray;
+}
+
+.select-wrapper select {
+    width: 278px;
+    height: 31px;
+    padding: 0 20px 0 7px;
+    background: transparent;
+    border: 0;
+    appearance: none;            /* remove arrow        */
+    -webkit-appearance: none;    /* remove arrow Chrome */
+    -moz-appearance: none;       /* remove arrow FF     */
+}
+.select-wrapper select::-ms-expand{
+    display: none;             /* remove arrow IE     */
+}
+.select-arrow {
+    position: absolute;
+    z-index: -9999;
+    border: 8px solid transparent; 
+    border-bottom: 0;
+    right: 6px;
+}
+.select-arrow:nth-child(1) {
+    top: 11px;
+    border-top-color: #6C7231;
+}
+.select-arrow:nth-child(2) {
+    top: 8px;
+    border-top-color: #FFF;
+}
+.choose-diller p{
+    margin-top: 7%;
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb(135, 135, 135);
+    line-height: 1.385;
+    margin-left: 25%;
+}
+.phone-number{
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: rgb(27, 27, 27);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 20px;
+}
+.adress{
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.385;
+    text-align: left;
+}
+.logo{
+    margin-top: 20px;
+}
+.header{
+    background-image: url(../img/banner-background.png);   
+}
+.banner{
+    margin-left: 1.5%;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.sale-date{
+    max-width: 273px;
+    min-height: 50px;
+    background-color: #ffc000;
+    margin-top: 112px;
+    margin-left: 60px;
+    border-radius: 2px;
+}
+.sale-date p{
+    font-size: 35px;
+    font-family: "Myriad Pro";
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.big-sale {
+  font-size: 36px;
+  font-family: "Myriad Pro";
+  color: #fff;
+  line-height: 1;
+    margin-left: 6.8%;
+    margin-top: 1%;
+    width: 500px;
+}
+.ninety-percent{
+    margin-top: 155px;
+}
+.sale-for{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2;
+    margin-top: 2%;
+    margin-right: 3%;
+    float: left;
+}
+.sza{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 254, 249);
+  text-transform: uppercase;
+  line-height: 1.2;
+    position: absolute;
+}
+.just-three-days{
+    margin-top: 13.5%;
+}
+.three-days{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.special-cost{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: #000;
+  line-height: 1.2;
+}
+.sale-new-car-div{
+    margin-top: 13.5%;
+}
+.sale-new-car {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(249, 250, 251);
+  line-height: 1.2;
+}
+.sale-new-car span{
+  font-size: 38px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 192, 0);
+  text-transform: uppercase;
+  line-height: 1.2;
+
+}
+
+.categories{
+    margin-top: 30px;
+}
+.category{
+    text-align: center;
+    background-color: #d7dee6;
+    width: 360px;
+    height: 165px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.category:nth-child(4){
+    margin-left: 15px;
+}
+.category:hover{
+    border: 5px #ffc000 solid;
+}
+.category:first-child{
+    margin-left: 15px;
+}
+.category img{
+    margin-top: 50px;
+}
+.category p{
+    margin-top: 20px;
+}
+.show-offers{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+}
+.brands{
+    margin-top: 43px;
+}
+.brand{
+    opacity: 0.5;
+}
+.brand:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 5px solid #ffc000;
+}
+.brand img{
+    float: left;
+    padding-right: 20px;
+}
+.brand-name {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+    text-align: left;
+}
+.brand-offers {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+    text-align: left;
+    margin-top: -10px;
+}
+.offers{
+    margin-top: 5px;
+}
+.offer{
+    margin-top: 40px;
+    height: 375px;
+}
+.offer-title{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+    text-align: left;
+    color: #010101;
+}
+.offer-description {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+    text-align: left;
+    color: #5c5555;
+}
+.check-offer{
+    border-style: none;
+    background-color: #ffc000;
+    max-width: 120px;
+    height: 35px;
+    border-radius: 2px;
+}
+.footer{
+    height: 180px;
+    background-color: #242526;
+}
+.footer-title{
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 30px;
+}
+.footer-des{
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  line-height: 1.2;
+  text-align: left;
+    color: #989b9e;
+}
+.footer-ul{
+    float: left;
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: #f9fafb;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
+@media(max-width: 600px){
+    .banner{ 
+        background-image:url(../img/bg-phone.png);
+        height: 300px;
+        margin-left: -2px;
+    }
+        .category{
+        margin-left: 100px !important;
+    }
+    .offer{
+        text-align: center;
+    }
+    .choose-diller p{
+        margin-top: 37px;
+    }
+    .select-wrapper{
+        width: 200px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .banner{ 
+        background-image:url(../img/bg-phone.png);
+        height: 300px;
+        margin-left: 13%;
+    }
+    .category{
+        margin-left: 27% !important;
+    }
+    .offer{
+        text-align: center;
+    }
+    .choose-diller p{
+        margin-top: 37px;
+    }
+    .select-wrapper{
+        width: 200px;
+    }
+}
+
